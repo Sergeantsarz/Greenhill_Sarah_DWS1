@@ -4,7 +4,7 @@
 	margin-left: 0;
 	margin-right: 0;
     padding-bottom: 10px;
-    padding-left: 960px;
+    padding-left: 430px;
     
 }
 
@@ -12,7 +12,6 @@
 
 #wrapper { 
 	margin: 0 auto; 
-	width: 1920px;
 	
 }
 
@@ -25,7 +24,7 @@
 	margin: 0 auto;
     padding: 0 auto;
     padding-bottom: 10px;
-    padding-left: 90px;
+    padding-left: 10px;
    
 }
 
@@ -102,6 +101,7 @@ body {
 
 #katPic{
 	padding-left: 410px;
+	opacity: 10%;
 }
 
 /* Remove bullets from list items globally */ 
@@ -114,32 +114,32 @@ ul {
 /* Links */
 
 a {
-	color: #ffd938;
+	color: #ffd938 !important;
 	text-decoration: none;
 }
 
 /* Unvisited */
 
 a:link {
-    color: #ffd938;
+    color: #ffffff !important;
 }
 
 /* Visited */
 
 a:visited {
-    color: #2d6d9c;
+    color: #ffd938 !important;
 }
 
 /* Hover Over */
 
 a:hover {
-    color: #ffd938;
+    color: #2d6d9c !important;
 }
 
 /* Selected */
 
 a:active {
-    color: #0000FF;
+    color: #0000FF !important;
 }
 
 /* Ordered list color */ 
@@ -173,20 +173,13 @@ ol {
 
 /* Images */
 
-#imgContainer img {
-    margin: 0 auto;
-    display: inline;
+#imgContainer a {
     padding: 5px;  
     padding-left: 250px;                      
-	
+	margin: 0 auto;
+	border: !important none;
 }
 
-#imgContainer {
-    padding-left: 40px;
-    padding-top: 200px;
-    display: inline;
-    margin: 0 auto;
-}
 
 
 
