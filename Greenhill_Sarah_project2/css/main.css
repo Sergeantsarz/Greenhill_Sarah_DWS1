@@ -135,13 +135,14 @@ ol {
 
 #imgContainer img {
     margin: 0 auto;
-    display: block;                        
+    display: block;
+    padding: 5px;                        
 	
 }
 
 #imgContainer {
     padding-left: 40px;
-    padding-top: 200px;
+    padding-top: 400px;
     margin: 0 auto;
 }
 
