@@ -66,7 +66,7 @@ h1, h2, h3, h4, a {
 	font-weight: normal;
 }
 
-/* Alter body elements */
+/* Alter HTML/Body elements */
 
 h2 {
 	padding-left: 425px;
@@ -149,7 +149,7 @@ ol {
 #rightBlock{
 	position: relative;
 	float: right;
-	padding-bottom: 100px;
+	padding-bottom: 50px;
 	width: 40%;
 }
 
@@ -157,7 +157,7 @@ ol {
 	position: relative;
 	float: left;
 	padding-left: 300px;
-	padding-bottom: 100px;
+	padding-bottom: 50px;
 	width: 30%;
 }
 
