@@ -29,14 +29,25 @@
    
 }
 
-#nav a:link, #nav a:visited {
+#nav a:link {
     width: 250px;
     font-weight: bold;
     color: #FFFFFF;
-    background-color: #2d6d9c;
+    background-color: #2d6d9c !important;
     text-align: center;
     padding: 4px;
     text-decoration: none;
+}
+
+#nav a:visited {
+	width: 250px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #ffd938;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+	
 }
 
 #nav ul {
