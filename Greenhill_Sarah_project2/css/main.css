@@ -86,6 +86,7 @@ body {
 	text-indent: 10px;
 	border: #ffd938 solid 2px;
 	padding: 5px;
+	overflow: hidden;
 }
 
 #pageMainText{
