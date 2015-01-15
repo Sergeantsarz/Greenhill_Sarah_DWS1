@@ -6,16 +6,14 @@
 		<link rel="stylesheet" type="text/css" href="css/main.css">
 	</head>
 	<body>
-		<div id= wrapper><!--WrapperDiv-->
+		
 		
 		<div id= logo><!--LogoDivStart-->
 		<h1> 
 			<a href="http://na.leagueoflegends.com/" title="League of Legends Main Site" target="_blank"><img src="images/lolLogo.png" width="500" height="225" alt="League of Legends main site" /></a>
 		</h1> <!--Logo-->
 		</div><!--LogoDivEnd-->
-	
-		<h2>An Homage to One of my <em>Most</em> Favorite Games</h2> <!--Top of Page-->
-		
+			
 		<div id= nav> <!--NavDivStart-->
 		 	<ul> <!--Nav-->
 		 		<li><a href="#botPage">Take Me Down, Scotty!</a></li>
@@ -25,11 +23,9 @@
 		 	</ul> 
 		</div><!--NavDivEnd-->
 		
-		<div id= katPic><!--KatDivStart-->
-		<figure>
-  		<img src="http://cdn.leagueoflegends.com/game-info/1.1.9/images/content/whatislol-intro.jpg" alt = "LoL"/> <!--KatPic-->
-		</figure>
-		</div>
+	
+		<img src="http://cdn.leagueoflegends.com/game-info/1.1.9/images/content/whatislol-intro.jpg" class= "katPic" alt = "LoL"/> 
+		
 		
 		<div id= pageMainText><!--PageMainText-->
 		<blockquote>Join the world's <strong>largest</strong> online gaming community: make friends, form teams and battle tens of millions of opponents from countries across the globe, then exchange strats on <em>reddit</em>, YouTube, the forums and beyond</blockquote> <!--LeagueQuote-->
@@ -41,12 +37,8 @@
 		</div><!--PageMainTextEnd-->
 		<br>
 		<br>
-		
-		<div id= leagueLink><!--leagueLink-->
-		<a target="_blank" href="http://na.leagueoflegends.com/" title="League of Legends main site">You can view the League of Legends main site here!</a> <!--SiteLink-->
-		</div><!--leagueLinkEnd-->
-		
-		<div id= leftBlock><!--blockFloatLeft-->
+				
+		<div id= "leftBlock"><!--leftBlockDiv-->
 		<h4 id="myFaves">Some of my favorite League champions:</h4> <!--FavesHeader-->
 		
 		<ul> <!--ChampLinks-->
@@ -56,9 +48,9 @@
 			<li><a target="blank_" href="http://gameinfo.na.leagueoflegends.com/en/game-info/champions/heimerdinger/" title="Heimerdinger">Heimerdinger</a></li>
 			<li><a target="blank_" href="http://gameinfo.na.leagueoflegends.com/en/game-info/champions/nami/" title="Nami">Nami</a></li>	
 		</ul>
-		</div><!--blockFloatLeftEnd-->
+		</div><!--leftBlockDivEnd-->
 		
-		<div id= rightBlock><!--blockFloatRight-->
+		<div id= "rightBlock"><!--RightBlockDiv-->
 		<h4 id="popChamps">Current Most Popular Champions Used in League of Legends</h4> <!--MostPopular-->
 		
 		<ol> <!--PopChampList-->
@@ -73,7 +65,7 @@
 			<li>Lux</li>
 			<li>Jinx</li>
 		</ol>
-		</div><!--blockFloatRightEnd-->
+		</div><!--RightBlockDivEnd-->
 			
 		<br>
 		
@@ -91,9 +83,11 @@
 		<br>
 		<br>
 		<div id= botPage><!--BotDivStart-->	
-		<a href="#logo" id= "botToTop">Beam Me Up!</a> <!--NavToTop-->
+		<ul>
+		<li><a href="#logo" id= "botToTop">Beam Me Up!</a></li> <!--NavToTop-->
+		</ul>
 		</div><!--BotDivEnd-->
-		</div><!--WrapperDivEnd-->
+		
 </body>
 	
 </html>

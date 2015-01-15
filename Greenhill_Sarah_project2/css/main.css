@@ -13,12 +13,13 @@
 #wrapper { 
 	margin: 0 auto; 
 	
-}
+} 
 
 /* Navigation */
 
 #nav {
 	float: left;
+	display: block;
 	width: 100%;
 	overflow: hidden;
 	margin: 0 auto;
@@ -26,6 +27,16 @@
     padding-bottom: 10px;
     padding-left: 10px;
    
+}
+
+#nav a:link, #nav a:visited {
+    width: 250px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #2d6d9c;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
 }
 
 #nav ul {
@@ -49,17 +60,6 @@
 	text-decoration: underline;
 	background-color: #62d6cd !important;
 	
-}
-
-#nav a:link, #nav a:visited {
-    display: block;
-    width: 250px;
-    font-weight: bold;
-    color: #FFFFFF;
-    background-color: #2d6d9c;
-    text-align: center;
-    padding: 4px;
-    text-decoration: none;
 }
 
 /* Remove Auto-Bolding */
@@ -100,9 +100,11 @@ body {
 
 /* Control the location of main page picture of Katarina */
 
-#katPic{
+.katPic{
 	padding-left: 410px;
-	opacity: 0.6;
+	opacity: 0.4;
+	margin: 0 auto;
+	
 }
 
 /* Remove bullets from list items globally */ 
@@ -115,33 +117,36 @@ ul {
 /* Links */
 
 a {
-	color: #ffd938 !important;
+	color: #ffd938;
 	text-decoration: none;
 }
 
-/* Unvisited */
+/* Non-nav Unvisited */
 
 a:link {
-    color: #ffffff !important;
+    color: #ffffff;
 }
 
-/* Visited */
+/* Non-nav Visited */
 
 a:visited {
-    color: #ffd938 !important;
+    color: #ffd938;
 }
 
-/* Hover Over */
-
-a:hover {
-    color: #2d6d9c !important;
-}
-
-/* Selected */
+/* Non-nav Active */
 
 a:active {
-    color: #0000FF !important;
+    color: #0000FF;
+} 
+
+/* Non-nav Hover */
+
+ul a:hover {
+	text-decoration: underline;
+	background-color: #2183bf !important;
+	
 }
+
 
 /* Ordered list color */ 
 
@@ -186,6 +191,7 @@ ol {
 
 #botToTop {
 	padding-left: 30px;
+	
 }
 
 
