@@ -1,29 +1,108 @@
+/* Logo */
+
+#logo h1 {
+	margin-left: 0;
+    margin-right: 0;
+    padding-bottom: 10px;
+    padding-left: 270px;
+}
+
+/* Navigation */
+
+#nav {
+	float: left;
+	width: 100%;
+	overflow: hidden;
+	margin: 0 auto;
+    padding: 0 auto;
+    padding-bottom: 10px;
+	
+   
+}
+
+#nav ul {
+	list-style-type: none;
+	float: left;
+	clear: left;
+    margin: 10px;
+    padding: 10px;
+   
+}
+
+#nav ul li {
+	display: block;
+	float: left;
+	list-style: none;
+	margin: 20px;
+	padding: 20px;
+}
+
+#nav a:hover {
+	text-decoration: underline;
+	background-color: #62d6cd !important;
+	
+}
+
+#nav a:link, #nav a:visited {
+    display: block;
+    width: 200px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #2d6d9c;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+}
+
+/* Remove Auto-Bolding */
+
 h1, h2, h3, h4, a {
 	font-weight: normal;
 }
 
-h1{
-	font-size: 250%;
-	
+/* Alter body elements */
+
+h2 {
+	padding-left: 290px;
+	font-size: 150%;
+	text-decoration: underline;
+
 }
+
+body {
+	background-color: #000000;
+	color: #ffffff;
+	border: #ffffff solid 2px;
+	padding: 10px;
+}
+
+/* Control the location of main page picture of Katarina */
+
+#katPic{
+	padding-left: 250px;
+}
+
+/* Remove bullets from list items globally */ 
+
+ul {
+	list-style-type: none;
+   
+}
+
+/* Link color and remove link underlines */
 
 a {
+	color: #ffd938;
 	text-decoration: none;
-		
 }
 
-a:hover {
-	text-decoration: underline;
-	
+/* Ordered list color */ 
+
+ol {
+	color: #62d6cd;
 }
 
-ul{
-	list-style-type: none;
-	
-}
 
-#logo {
-	margin-left: auto;
-    margin-right: auto;
-    width: 30%;
-}
+
+
+
