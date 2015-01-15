@@ -75,7 +75,7 @@ h2 {
 	font-size: 2em;
 	color: #2d6d9c;
 	text-decoration: underline;
-	text-shadow: 30px;
+	text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
 	background-color: #ffd938; 
 
 }
@@ -87,6 +87,7 @@ body {
 	color: #ffffff;
 	text-indent: 10px;
 	border: #ffd938 solid 2px;
+	border-radius: 40px;
 	padding: 5px;
 	overflow-x: hidden;
 }
@@ -173,11 +174,12 @@ ol {
 
 /* Images */
 
-#imgContainer a {
+#imgContainer {
     padding: 5px;  
-    padding-left: 250px;                      
+    padding-left: 70px;                      
 	margin: 0 auto;
-	border: !important none;
+	border: none;
+	text-align: center;
 }
 
 
