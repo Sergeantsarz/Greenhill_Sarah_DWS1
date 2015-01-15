@@ -171,14 +171,16 @@ ol {
 
 #imgContainer img {
     margin: 0 auto;
-    display: block;
-    padding: 5px;                        
+    display: inline;
+    padding: 5px;  
+    padding-left: 200px;                      
 	
 }
 
 #imgContainer {
     padding-left: 40px;
     padding-top: 200px;
+    display: inline;
     margin: 0 auto;
 }
 
