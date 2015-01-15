@@ -4,7 +4,7 @@
 	margin-left: 0;
     margin-right: 0;
     padding-bottom: 10px;
-    padding-left: 480px;
+    padding-left: 390px;
 }
 
 /* Navigation */
@@ -16,7 +16,7 @@
 	margin: 0 auto;
     padding: 0 auto;
     padding-bottom: 10px;
-    padding-left: 150px;
+    padding-left: 45px;
 	
    
 }
@@ -64,7 +64,7 @@ h1, h2, h3, h4, a {
 /* Alter body elements */
 
 h2 {
-	padding-left: 425px;
+	padding-left: 330px;
 	font-size: 2em;
 	text-decoration: underline;
 
@@ -80,7 +80,7 @@ body {
 /* Control the location of main page picture of Katarina */
 
 #katPic{
-	padding-left: 470px;
+	padding-left: 380px;
 }
 
 /* Remove bullets from list items globally */ 
