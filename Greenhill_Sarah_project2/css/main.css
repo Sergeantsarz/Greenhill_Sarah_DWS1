@@ -79,6 +79,12 @@ h1, h2, h3, h4, a {
 	font-weight: normal;
 }
 
+/* Google Web Font */
+
+@font-face {
+    src: url(http://fonts.googleapis.com/css?family=Economica);
+}
+
 /* Alter HTML/Body elements */
 
 h2 {
@@ -90,11 +96,6 @@ h2 {
 	background-color: #ffd938; 
 
 }
-
-@font-face {
-    src: url(http://fonts.googleapis.com/css?family=Economica);
-}
-
 
 body {
 	background-color: #000000;
@@ -119,7 +120,6 @@ body {
 .katPic{
 	padding-left: 410px;
 	opacity: 0.4;
-	margin: 0 auto;
 	
 }
 
@@ -164,7 +164,7 @@ ul a:hover {
 }
 
 
-/* Ordered list color */ 
+/* Top Champs list color */ 
 
 ol {
 	color: #62d6cd;
@@ -175,7 +175,7 @@ ol {
 #rightBlock{
 	position: relative;
 	float: right;
-	padding-bottom: 50px;
+	padding-bottom: 100px;
 	width: 40%;
 }
 
@@ -183,7 +183,7 @@ ol {
 	position: relative;
 	float: left;
 	padding-left: 300px;
-	padding-bottom: 50px;
+	padding-bottom: 100px;
 	width: 30%;
 }
 
@@ -195,10 +195,9 @@ ol {
 
 /* Images */
 
-#imgContainer {
-    padding: 5px;  
-    padding-left: 70px;                      
-	margin: 0 auto;
+#imgContainer {  
+    padding-left: 50px;                     
+	margin: 0;
 	border: none;
 	text-align: center;
 }
