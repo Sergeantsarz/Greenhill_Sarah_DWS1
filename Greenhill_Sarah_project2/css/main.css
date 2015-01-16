@@ -13,6 +13,7 @@
 #wrapper { 
 	margin: 0 auto; 
 	width: 1200px;
+	overflow-x: hidden;
 } 
 
 /* Navigation */
