@@ -117,6 +117,7 @@ body {
 	margin: 0 auto;
 	background-color: #2d6d9c;
 	overflow-x: hidden;
+	text-shadow: 2px 2px 8px #c78300;
 }
 
 h3 {
