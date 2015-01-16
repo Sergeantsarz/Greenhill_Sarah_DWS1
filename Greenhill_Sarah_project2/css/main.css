@@ -114,10 +114,11 @@ body {
 	font-weight: 1em;
 	line-height: inherit;
 	background-color: #2d6d9c;
+	width: 1400px;
 }
 
 h3 {
-	box-shadow: -11px 10px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: -8px 10px 5px 0px rgba(0,0,0,0.75);
 	 
 }
 
