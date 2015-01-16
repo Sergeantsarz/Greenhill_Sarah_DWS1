@@ -205,13 +205,13 @@ ol {
 
 /* Images */
 
-#imgContainer {  
-    padding-left: 20px;                    
+#imgContainer a, figcaption{  
+    padding-left: 250px;                    
 	margin: 0 auto;
 	border: none;
 	text-align: center;
-	width: 1350px;
 }
+
 
 /* Bottom To Top Link */
 
