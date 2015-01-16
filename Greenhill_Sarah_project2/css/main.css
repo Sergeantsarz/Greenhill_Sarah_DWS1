@@ -113,10 +113,9 @@ body {
 	text-align: center;
 	font-weight: 1em;
 	line-height: inherit;
-	padding-right: 200px;
 	margin: 0 auto;
 	background-color: #2d6d9c;
-	background-size: 1000px;
+	overflow-x: hidden;
 }
 
 h3 {
