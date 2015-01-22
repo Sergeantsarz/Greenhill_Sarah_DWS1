@@ -1,0 +1,238 @@
+/* Logo */
+
+#logo h1 {
+	margin-left: 0;
+	margin-right: 0;
+    padding-bottom: 10px;
+    padding-left: 390px;
+    
+}
+
+/* Center Page w/ Wrapper */
+
+#wrapper { 
+	margin: 0 auto; 
+	width: 1200px;
+	overflow-x: hidden;
+} 
+
+/* Navigation */
+
+#nav {
+	float: left;
+	display: block;
+	width: 100%;
+	overflow: hidden;
+	margin: 0 auto;
+    padding: 0 auto;
+    padding-bottom: 10px;
+    padding-left: 200px;
+   
+}
+
+#nav a:link {
+    width: 250px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #2d6d9c !important;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+}
+
+#nav a:visited {
+	width: 250px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #ffd938;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+	
+}
+
+#nav a:hover {
+	text-decoration: underline;
+	background-color: #62d6cd !important;
+	
+}
+
+# nav a:active {
+    color: #99a6e5 !important;
+}
+
+#nav ul {
+	list-style-type: none;
+	float: left;
+	clear: left;
+    margin: 10px;
+    padding: 10px;
+   
+}
+
+#nav ul li {
+	display: block;
+	float: left;
+	list-style: none;
+	margin: 20px;
+	padding: 20px;
+}
+
+/* Remove Auto-Bolding */
+
+h1, h2, h3, h4, a {
+	font-weight: normal;
+}
+
+/* Google Web Font */
+
+@font-face {
+    src: url(http://fonts.googleapis.com/css?family=Economica);
+}
+
+/* Alter HTML/Body elements */
+
+h2 {
+	padding-left: 425px;
+	font-size: 2em;
+	color: #2d6d9c;
+	text-decoration: underline;
+	text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+	background-color: #ffd938; 
+
+}
+
+body {
+	background-color: #000000;
+	font-size: 15px;
+	font-family: Economica, Georgia, sans-serif;
+	color: #ffffff;
+	text-indent: 3px;
+	border: #ffd938 solid 2px;
+	border-radius: 40px;
+	padding: 5px;
+	overflow-x: hidden;
+}
+
+#pageMainText{
+	text-align: center;
+	font-weight: 1em;
+	line-height: inherit;
+	margin: 0 auto;
+	background-color: #2d6d9c;
+	overflow-x: hidden;
+	text-shadow: 2px 2px 8px #c78300;
+}
+
+h3 {
+	background-color: #2d6d9c;
+	box-shadow: 2px 8px 20px rgba(68,68,68,0.6);
+	width: 1200px;
+	padding-left: 20px;
+	font-style: oblique;
+}
+
+/* Control the location of main page picture of Katarina */
+
+.katPic{
+	padding-left: 410px;
+	padding-bottom: 30px;
+	opacity: 0.5;
+	
+}
+
+/* Remove bullets from list items globally */ 
+
+ul {
+	list-style-type: none;
+   
+}
+
+/* Links */
+
+a {
+	color: #ffd938;
+	text-decoration: none;
+}
+
+/* Non-nav Unvisited */
+
+a:link {
+    color: #ffffff;
+}
+
+/* Non-nav Visited */
+
+a:visited {
+    color: #ffd938;
+}
+
+/* Non-nav Hover */
+
+ul a:hover {
+	text-decoration: underline;
+	background-color: #2183bf !important;
+	
+}
+
+/* Non-nav Active */
+
+a:active {
+    color: #0000FF;
+} 
+
+
+/* Top Champs list color */ 
+
+ol {
+	color: #62d6cd;
+}
+
+/* Lists */
+
+#rightBlock{
+	position: relative;
+	float: right;
+	padding-bottom: 100px;
+	width: 40%;
+}
+
+#leftBlock{
+	position: relative;
+	float: left;
+	padding-left: 300px;
+	padding-bottom: 100px;
+	width: 30%;
+}
+
+#leagueLink {
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+
+/* Images */
+
+#imgContainer a, figcaption{  
+    padding-left: 250px;
+    padding-right: 150px;                    
+	margin: 0 auto;
+	border: none;
+	text-align: center;
+}
+
+
+/* Bottom To Top Link */
+
+#botToTop {
+	padding-left: 10px;
+	
+}
+
+
+
+
+
+
+
+
