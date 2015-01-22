@@ -1,7 +1,10 @@
 /* Logo */
 
-#logo h1 {
+#logo{
 	margin: 0 auto 0 auto;
+}
+
+#logo h1 {
     padding-bottom: 10px;
     padding-left: 390px;
     
