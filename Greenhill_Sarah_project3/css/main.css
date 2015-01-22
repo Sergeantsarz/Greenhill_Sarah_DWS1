@@ -204,10 +204,8 @@ ol{
 
 /* Images */
 
-#imgContainer a, figcaption{  
-    padding-left: 250px;
-    padding-right: 150px;                    
-	margin: 0 auto;
+#images, figcaption{                 
+	margin: 0 auto 0 auto;
 	border: none;
 	text-align: center;
 }
