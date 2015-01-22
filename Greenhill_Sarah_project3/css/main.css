@@ -1,8 +1,7 @@
 /* Logo */
 
 #logo h1 {
-	margin-left: 0;
-	margin-right: 0;
+	margin: 0 auto 0 auto;
     padding-bottom: 10px;
     padding-left: 390px;
     
@@ -11,7 +10,7 @@
 /* Center Page w/ Wrapper */
 
 #wrapper { 
-	margin: 0 auto; 
+	margin: 0 auto 0 auto; 
 	width: 1200px;
 	overflow-x: hidden;
 } 
@@ -20,13 +19,12 @@
 
 #nav {
 	float: left;
-	display: block;
+	display: inline;
 	width: 100%;
 	overflow: hidden;
-	margin: 0 auto;
-    padding: 0 auto;
+	margin: 0 auto 0 auto;
     padding-bottom: 10px;
-    padding-left: 200px;
+    text-align: center;
    
 }
 
@@ -36,7 +34,7 @@
     color: #FFFFFF;
     background-color: #2d6d9c !important;
     text-align: center;
-    padding: 4px;
+    margin-left: 85px;
     text-decoration: none;
 }
 
@@ -71,7 +69,6 @@
 }
 
 #nav ul li {
-	display: block;
 	float: left;
 	list-style: none;
 	margin: 20px;
@@ -135,8 +132,8 @@ h3 {
 /* Control the location of main page picture of Katarina */
 
 .katPic{
-	padding-left: 410px;
-	padding-bottom: 30px;
+	display: block;
+	margin: 0 auto 0 auto;
 	opacity: 0.5;
 	
 }
