@@ -55,7 +55,7 @@
 	
 }
 
-# nav a:active {
+#nav a:active {
     color: #99a6e5 !important;
 }
 
@@ -89,7 +89,7 @@ h1, h2, h3, h4, a {
 
 /* Alter HTML/Body elements */
 
-h2 {
+h2{
 	padding-left: 425px;
 	font-size: 2em;
 	color: #2d6d9c;
@@ -99,7 +99,7 @@ h2 {
 
 }
 
-body {
+body{
 	background-color: #000000;
 	font-size: 15px;
 	font-family: Economica, Georgia, sans-serif;
@@ -121,7 +121,7 @@ body {
 	text-shadow: 2px 2px 8px #c78300;
 }
 
-h3 {
+h3{
 	background-color: #2d6d9c;
 	box-shadow: 2px 8px 20px rgba(68,68,68,0.6);
 	width: 1200px;
@@ -133,40 +133,40 @@ h3 {
 
 .katPic{
 	display: block;
-	margin: 0 auto 0 auto;
+	margin: 0 auto 10px auto;
 	opacity: 0.5;
 	
 }
 
 /* Remove bullets from list items globally */ 
 
-ul {
+ul{
 	list-style-type: none;
    
 }
 
 /* Links */
 
-a {
+a{
 	color: #ffd938;
 	text-decoration: none;
 }
 
 /* Non-nav Unvisited */
 
-a:link {
+a:link{
     color: #ffffff;
 }
 
 /* Non-nav Visited */
 
-a:visited {
+a:visited{
     color: #ffd938;
 }
 
 /* Non-nav Hover */
 
-ul a:hover {
+ul a:hover{
 	text-decoration: underline;
 	background-color: #2183bf !important;
 	
@@ -174,14 +174,14 @@ ul a:hover {
 
 /* Non-nav Active */
 
-a:active {
+a:active{
     color: #0000FF;
 } 
 
 
 /* Top Champs list color */ 
 
-ol {
+ol{
 	color: #62d6cd;
 }
 
@@ -202,7 +202,7 @@ ol {
 	width: 30%;
 }
 
-#leagueLink {
+#leagueLink{
 	text-align: center;
 	padding-bottom: 20px;
 }
@@ -221,8 +221,8 @@ ol {
 
 /* Bottom To Top Link */
 
-#botToTop {
-	padding-left: 10px;
+#botToTop{
+	margin-left: 10px;
 	
 }
 
