@@ -107,7 +107,7 @@ body{
 
 #pageMainText{
 	text-align: center;
-	font-weight: 1em;
+	font-weight: bold;
 	line-height: inherit;
 	margin: 0 auto;
 	background-color: #2d6d9c;
