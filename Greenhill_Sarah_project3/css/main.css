@@ -203,15 +203,23 @@ ol{
 	padding-bottom: 20px;
 }
 
+/* Clear Float */
+
+#clear{
+	clear: both;
+}
 
 /* Images */
 
 #images{                 
-	margin: 315 15% 10px 15%;
-	border: none;
+	margin: 0 auto 0 auto;
 	text-align: center;
-	background: #ffffff no-repeat center;
+	/*background: #ffffff no-repeat top left;*/
 	
+}
+
+#images img{
+	border: 2px solid;
 }
 
 figcaption{
