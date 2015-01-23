@@ -11,7 +11,7 @@
 
 #wrapper{ 
 	margin: 0 auto 0 auto; 
-	width: 85%;
+	width: 100%;
 	overflow-x: hidden;
 } 
 
@@ -226,6 +226,10 @@ figcaption{
 	color: #000000;
 	font-weight: bold;
 	margin-bottom: 5px;
+}
+
+.Twitch{
+	margin-right: 3px;
 }
 
 
