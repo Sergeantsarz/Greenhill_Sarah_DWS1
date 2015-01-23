@@ -21,7 +21,8 @@
 	float: left;
 	display: inline;
 	margin: 0 auto 0 auto;
-	width: 80%;
+	width: 100%;
+	font-size: .7em;
     padding-bottom: 15px;
     text-align: center;
     clear: both;
